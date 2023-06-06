@@ -1,0 +1,85 @@
+body{
+    background-color:#000000;
+    font-family: 'Poppins', sans-serif;
+}
+.contenedor2{
+    padding: 0 15%;
+}
+.text1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10%;
+    margin-left: 18%;
+    margin-top: 10%;
+}
+.perfil12{
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+    margin-top: 26%;
+}
+.tetxt12{
+    display: flex;
+    justify-content: center;
+    gap: 18%;
+    color: white;
+}
+.perfil34{
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+}
+.tetxt34{
+    display: flex;
+    justify-content: center;
+    gap: 31%;
+    color: white;
+    margin-left: 5%;
+}
+.perfil5{
+    display: flex;
+    justify-content: center;
+}
+.tetxt5{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.rectangulo{
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+}
+.admred {
+    color: #F51B0F;
+    text-align: center;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) {
+    .contenedor2{
+        display: none;
+    }
+}
+
+@media (min-width:350px) and (max-width: 449.98px){
+    .text1{
+        font-size: 13px;
+    }
+    .tetxt12{
+        gap: 31%;
+    }
+}

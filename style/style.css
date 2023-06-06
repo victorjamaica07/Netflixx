@@ -1,0 +1,155 @@
+
+body{
+    background-color:#000000;
+    font-family: 'Poppins', sans-serif;
+}
+.contenedor{
+    padding: 0 15%;
+}
+.imgs{
+    width: 100%;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-family: system-ui;
+}
+.red1{
+    color: #D42F26;
+    text-align: center;
+    font-size: 16px;
+}
+.input1{
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+}
+.input2{
+    width:100%;
+    padding: 10px;
+    border-radius: 12px;
+}
+.input3{
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+}
+.btn{
+    color: white;
+    background-color: #F51B0F;
+    margin-top: 33%;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+}
+.btn1{
+    background-color: #000000;
+    color:#F51B0F;
+    border: none;
+    font-size: 16px;
+}
+.text{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.popup{
+    background-color: #f51a0f8e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+}
+.popupp1{
+    opacity: 1;
+    pointer-events: unset;
+    background-color: #68605f8e;
+}
+.Poppins{
+    margin: auto;
+    max-width: 80%;
+    background-color: transparent;
+    height: 50%;
+    background-color: darkgrey;
+}
+.inputemail{
+    width: 50%;
+    height: 15px;
+    margin-left: 24%;
+    border-radius: 5px;
+}
+.inputpassword{
+    width: 50%;
+    height: 15px;
+    margin-left: 24%;
+    border-radius: 5px;
+}
+.equis{
+    width: 30px;
+    margin-left: 61%;
+    position: absolute;
+    margin-top: -18%;
+}
+.loginn{
+    background-color: white;
+    margin-left: 24%;
+    text-decoration: none;
+    color: #F51B0F;
+    background-color: #000000;
+    border-radius: 5px;
+}
+.netflixx{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000000;
+    transform: translateX(-100%);
+    animation: animate;
+    animation-duration: 3s;
+}
+.netflixx img{
+    width:50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+@keyframes animate{
+
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) {
+    .contenedor{
+        display: none;
+    }
+}
+
+@media (min-width:350px) and (max-width: 449.98px){
+    .text{
+        font-size: 13px;
+    }
+}
+
+@media (min-width:450px) and (max-width: 575.98px) {
+    
+}

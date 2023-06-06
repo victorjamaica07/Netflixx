@@ -1,0 +1,124 @@
+body{
+    background-color:#000000;
+    font-family: 'Poppins', sans-serif;
+}
+.contenedor3{
+    position: relative;
+}
+.netflixx1{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+.peli1 img{
+    width: 100%;
+}
+.vector{
+    position: absolute;
+    top: 3%;
+    left: 81%;
+}
+.carrusel{
+    display: flex;
+    overflow: scroll;
+}
+.carrsel{
+    flex: 1 0 auto;
+}
+.carrusel1{
+    display: flex;
+    overflow: scroll;
+}
+.carrsel1{
+    flex: 1 0 auto;
+}
+.carrsel2{
+    display: flex;
+    overflow: scroll;
+}
+.carrsel2{
+    flex: 1 0 auto;
+}
+.avatar{
+    position: absolute;
+    top: 3%;
+    left: 90%;
+}
+.textp{
+    position: absolute;
+    color: white;
+    display: flex;
+    gap: 67%;
+    left: 16%;
+    top: 5%;
+    font-family: sans-serif;
+}
+.imgs3{
+    display: flex;
+    justify-content: space-around;
+}
+.textbaru{
+    color: white;
+}
+.menu{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background: black;
+}
+.hvlf{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.sedang{
+    color: white;
+}
+.hanya{
+    color: white;
+}
+.img12, .img13{
+    width: 195px;
+}
+.img16{
+    width: 76px;
+}
+.teratas{
+    color: white;
+}
+.prrfos{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.lanjutkan{
+    color: white;
+}
+.imgss2{
+    margin-bottom: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) {
+    .contenedor3{
+        display: none;
+    }
+}
